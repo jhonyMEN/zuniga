@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+   background-color: blue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.fila-superior {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.cuadro-lateral {
+    width: 200px;
+    height: 200px;
+    background-image: url();
+    border-radius: 6px;
+}
+
+.columna-rectangulos {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.rectangulo {
+    width: 520px;
+    min-height: 120px;
+    background-color: yellowgreen;
+    border: 2px solid #7fc37a;
+    border-radius: 6px;
+    padding-top: 35px;
+    position: relative;
+    text-align: center;
+}
+
+.barra {
+    background: #000;
+    color: #fff;
+    padding: 4px 10px;
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.fila-inferior {
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 30px;
+}
+
+.cuadro1 {
+    background-image: url(platzuñi.jpg);
+    width: 200px;
+    height: 180px;
+ 
+    border-radius: 6px;
+}
+.cuadro2 {
+    background-image: url(culzuñi.jpg);
+    width: 200px;
+    height: 180px;
+   
+    border-radius: 6px;
+}
+.cuadro3 {
+    background-image: url(iglzuñi.jpg);
+    width: 200px;
+    height: 180px;
+  
+    border-radius: 6px;
+}
